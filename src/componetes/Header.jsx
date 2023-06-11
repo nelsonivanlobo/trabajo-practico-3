@@ -1,6 +1,6 @@
 
  import { Link } from 'react-router-dom';
-import agu from '../assets/nelson.jpg'
+import nelson from '../assets/nelson.jpg'
 
 export const Header = () => {
   return (
@@ -8,7 +8,7 @@ export const Header = () => {
 
          <header>
                   <div className="Logo_header">
-                         <img src={agu} alt="" className='img_logo' />
+                         <img src={nelson} alt="" className='img_logo' />
                          <h2 className="nombre_portfolio">Mi Portfolio</h2>
                   </div>
 
